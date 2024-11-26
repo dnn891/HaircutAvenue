@@ -1,0 +1,29 @@
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1A1A40;
+  --color-accent: #FFD700;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #4C4CFF 0%, #1A1A40 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
